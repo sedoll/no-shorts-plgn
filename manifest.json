@@ -1,0 +1,22 @@
+{
+    "manifest_version": 3,
+    "name": "YouTube Shorts Hider",
+    "version": "1.0",
+    "description": "PC화면에서 유튜브 쇼츠 숨김",
+    "permissions": ["activeTab", "scripting", "storage"],
+    "host_permissions": ["*://*.youtube.com/*"],
+    "background": {
+      "service_worker": "background.js"
+    },
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    },
+    "content_scripts": [
+      {
+        "matches": ["*://*.youtube.com/*"],
+        "js": ["content.js"]
+      }
+    ]
+  }
+  
