@@ -5,6 +5,9 @@
 
 [아이콘링크](https://www.freepik.com/icon/youtube_3938026#fromView=search&page=1&position=0&uuid=3667207f-7d3a-472b-8b18-11e523e8579a)
 
+## webstore
+[link](https://chromewebstore.google.com/detail/youtube-shorts-hider/gfifpgeaphnabjibfghmkaknhogojlig?authuser=0&hl=ko)
+
 ## 결과
 ### 기본 메인
 ![](./result/default_main.png) 
